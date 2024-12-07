@@ -49,7 +49,7 @@ The project was developed as part of the GIAIC Hackathon challenge to transform 
 
 ## 🎨 **Design Preview**
 
-**Figma Link**: [View the Prototype](https://figma.com/sample-link)
+**Figma Link**: [View Figma Design](https://figma.com/sample-link)
 
 ![Figma Design Preview](https://via.placeholder.com/800x400?text=Design+Preview)
 
@@ -59,5 +59,5 @@ The project was developed as part of the GIAIC Hackathon challenge to transform 
 
 This project is licensed under the [MIT License](LICENSE).
 
-Feel free to enhance, fork, or contribute to this project. Happy coding! 🚀
+## **(💫 Happy coding! 🚀)**
 
