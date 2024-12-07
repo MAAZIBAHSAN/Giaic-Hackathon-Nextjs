@@ -1,11 +1,8 @@
-# Giaic-Hackathon-Nextjs
-This hackathone is about figma ui/ux tampelate to a complete website using nextjs, tailwindcss, and many more libraries and other stuffs
-Assalamualaikum, everyone who see my this repository is about giaic hackathon so it's build on nextjs, reactjs, tailwindcss, and css and so on
-
-
 # 🌟 GIAIC Hackathon 2024: Figma to Website Conversion 🚀
-
+---
 Welcome to the **GIAIC Hackathon** project! This repository showcases our innovative UI/UX design journey from **Figma prototypes** to a fully functional, responsive website built with cutting-edge web technologies.
+
+---
 
 ## 🖌️ **Project Overview**
 
@@ -18,6 +15,8 @@ The project was developed as part of the GIAIC Hackathon challenge to transform 
 - 🎨 Styled using **Tailwind CSS** and additional custom CSS.
 - 🔄 Dynamic routing and server-side rendering.
 
+---
+
 ## 🛠️ **Tech Stack**
 
 | **Technology**  | **Purpose**                             |
@@ -28,6 +27,8 @@ The project was developed as part of the GIAIC Hackathon challenge to transform 
 | **CSS**          | Custom styling and animations.         |
 | **JavaScript**   | Interactive elements and functionality.|
 | **Git/GitHub**   | Version control and collaboration.     |
+
+---
 
 ## 🎯 **Project Workflow**
 
