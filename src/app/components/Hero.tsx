@@ -19,9 +19,9 @@ const Hero = () => {
         </div>
 
         {/* Image Placeholder */}
-        <Image src="/shop-hero-2.png" alt="women" width={1440} height={722} className="cursor-pointer relative right-14 w-[1444px] h-[634px]"/>
+        <Image src="/shop-hero-2.png" alt="women" width={1440} height={702} className="cursor-pointer relative right-14 w-[1444px] h-[634px]"/>
         <div className="mt-8 md:mt-0 md:ml-8">
-          {/* Leave this blank for the image */}
+        
           
 
           <div className="w-full h-96 bg-gray-200 rounded-lg"></div>

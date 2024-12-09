@@ -1,11 +1,11 @@
-import FeaturedPosts from "@/components/FeaturedPosts";
-import Footer from "@/components/Footer";
-import GreenDiv from "@/components/GreenCarousel";
-import  {TopHeader, Header} from "@/components/Header";
-import Hero from "@/components/Hero";
-import FeaturedProducts, { FeaturedProducts2 } from "@/components/ProductCards";
-import PromoSection from "@/components/PromoSection";
-import SecondHero from "@/components/SecondHero";
+import FeaturedPosts  from "@/app/components/FeaturedPosts";
+import Footer from "@/app/components/Footer";
+import GreenDiv from "@/app/components/GreenCarousel";
+import  {TopHeader, Header} from "@/app/components/Header";
+import Hero from "@/app/components/Hero";
+import {FeaturedProducts, FeaturedProducts2}  from "@/app/components/ProductCards";
+import PromoSection from "@/app/components/PromoSection";
+import SecondHero from "@/app/components/SecondHero";
 
 export default function Home() {
   return (

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { CiUser } from "react-icons/ci";
 
@@ -14,7 +15,6 @@ import {
 import { FaRegHeart } from "react-icons/fa6";
 import { IoMdSearch } from "react-icons/io";
 import { PiShoppingCart } from "react-icons/pi";
-import { RiArrowDropDownLine } from "react-icons/ri";
 
 export function TopHeader() {
   return (
@@ -56,44 +56,36 @@ export const Header = () => {
 
       {/* Navigation Links */}
       <div className="hidden md:flex space-x-6 text-gray-600 pr-64">
-        <a href="#" className="hover:text-gray-800 cursor-pointer">
+        <Link href="/home" className="hover:text-gray-800 cursor-pointer hover:underline">
           Home
-        </a>
+        </Link>
         <div className="relative group">
-          <a href="#" className="hover:text-gray-800 flex items-center cursor-pointer">
+          <Link href="/shop" className="hover:text-gray-800 flex items-center cursor-pointer hover:underline">
             Shop
-            <span className="ml-1"><RiArrowDropDownLine height={10} width={10}/></span>
-          </a>
-          {/* Dropdown (optional) */}
-          <div className="absolute left-0 hidden group-hover:block bg-white shadow-md mt-2 rounded-md cursor-pointer">
-            <a href="#" className="block px-4 py-2 hover:bg-gray-100">
-              Category 1
-            </a>
-            <a href="#" className="block px-4 py-2 hover:bg-gray-100">
-              Category 2
-            </a>
-          </div>
+            <span className="ml-1"></span>
+          </Link>
         </div>
-        <a href="#" className="hover:text-gray-800">
+
+        <Link href="/about" className="hover:text-gray-800 cursor-pointer hover:underline">
           About
-        </a>
-        <a href="#" className="hover:text-gray-800">
-          Blog
-        </a>
-        <a href="#" className="hover:text-gray-800">
+        </Link>
+
+        <Link href="/contact" className="hover:text-gray-800 cursor-pointer hover:underline">
           Contact
-        </a>
-        <a href="#" className="hover:text-gray-800">
+        </Link>
+
+        <Link href="/pages" className="hover:text-gray-800 cursor-pointer hover:underline">
           Pages
-        </a>
+        </Link>
+
       </div>
 
       {/* User Actions */}
       <div className="flex items-center space-x-5 text-gray-600">
       <CiUser className="hover:text-gray-900 text-gray-800 cursor-pointer h-[26px] w-[23px]"/>  
-        <a href="#" className="text-blue-700 hover:underline font-semibold">
+        <Link href="#" className="text-blue-700 hover:underline font-semibold">
         Login / Register
-        </a>
+        </Link>
         <button className="hover:text-gray-800">
         <IoMdSearch className="h-[32px] w-[22px]"/>
         </button>

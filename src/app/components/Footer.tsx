@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 
 export default function Footer() {
@@ -7,15 +8,15 @@ export default function Footer() {
       <div className="w-full max-w-[1440px] flex flex-col items-center">
         <h1 className="text-2xl font-bold text-gray-900 mr-auto mt-3">Bandage</h1>
         <div className="flex space-x-4 ml-auto">
-          <a href="#" className="text-gray-600 hover:text-gray-900">
+          <Link href="#" className="text-gray-600 hover:text-gray-900">
             <FaFacebookF size={24} />
-          </a>
-          <a href="#" className="text-gray-600 hover:text-gray-900">
+          </Link>
+          <Link href="#" className="text-gray-600 hover:text-gray-900">
             <FaInstagram size={24} />
-          </a>
-          <a href="#" className="text-gray-600 hover:text-gray-900">
+          </Link>
+          <Link href="#" className="text-gray-600 hover:text-gray-900">
             <FaTwitter size={24} />
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -25,10 +26,10 @@ export default function Footer() {
         <div>
           <h2 className="text-lg font-semibold text-gray-900 mb-4">Company Info</h2>
           <ul className="space-y-2 text-gray-600">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Carrier</a></li>
-            <li><a href="#">We are hiring</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><Link href="#">About Us</Link></li>
+            <li><Link href="#">Carrier</Link></li>
+            <li><Link href="#">We are hiring</Link></li>
+            <li><Link href="#">Blog</Link></li>
           </ul>
         </div>
 
@@ -36,10 +37,10 @@ export default function Footer() {
         <div>
           <h2 className="text-lg font-semibold text-gray-900 mb-4">Legal</h2>
           <ul className="space-y-2 text-gray-600">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Carrier</a></li>
-            <li><a href="#">We are hiring</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><Link href="#">About Us</Link></li>
+            <li><Link href="#">Carrier</Link></li>
+            <li><Link href="#">We are hiring</Link></li>
+            <li><Link href="#">Blog</Link></li>
           </ul>
         </div>
 
@@ -47,10 +48,10 @@ export default function Footer() {
         <div>
           <h2 className="text-lg font-semibold text-gray-900 mb-4">Features</h2>
           <ul className="space-y-2 text-gray-600">
-            <li><a href="#">Business Marketing</a></li>
-            <li><a href="#">User Analytic</a></li>
-            <li><a href="#">Live Chat</a></li>
-            <li><a href="#">Unlimited Support</a></li>
+            <li><Link href="#">Business Marketing</Link></li>
+            <li><Link href="#">User Analytic</Link></li>
+            <li><Link href="#">Live Chat</Link></li>
+            <li><Link href="#">Unlimited Support</Link></li>
           </ul>
         </div>
 
@@ -58,10 +59,10 @@ export default function Footer() {
         <div>
           <h2 className="text-lg font-semibold text-gray-900 mb-4">Resources</h2>
           <ul className="space-y-2 text-gray-600">
-            <li><a href="#">iOS & Android</a></li>
-            <li><a href="#">Watch a Demo</a></li>
-            <li><a href="#">Customers</a></li>
-            <li><a href="#">API</a></li>
+            <li><Link href="#">iOS & Android</Link></li>
+            <li><Link href="#">Watch a Demo</Link></li>
+            <li><Link href="#">Customers</Link></li>
+            <li><Link href="#">API</Link></li>
           </ul>
         </div>
 
